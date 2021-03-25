@@ -67,7 +67,7 @@ public class Table {
             sb.append(String.format("%.2f", result.get(i))).append(",");
         }
         sb.append(String.format("%.2f", result.get(n - 1))).append(") ");
-        sb.append(" 对应的目标函数值为").append(String.format("%.2f", z.getB()));
+        sb.append(" 对应的目标函数值为").append(String.format("%.2f", -z.getB()));
         System.out.println(sb.toString());
     }
 
